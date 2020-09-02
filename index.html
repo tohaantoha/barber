@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="logo">
+          <a href="#">
+            <span>H</span>
+            <!-- <img class=logo-descr src="images/logo3.png" alt=""> -->
+            <div class="logo__descr">air salon </div>
+            <p class=logo__sub>For Men Only</p>
+          </a>
+        </div>
+        <!-- /.logo -->
+        <div class="header-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <!-- /.header-btn -->
+      </div>
+      <!-- /.header-top -->
+      <div class="header-content">
+        <!-- имя-блока__имя-элемента формула. header-content это имя блока блок состоит из дивов. __title имя элемента так называем наш блок, что это заголовок. тоесть название нашего блока заголовок -->
+        <h1 class="header-content__title">
+          Barbershop
+        </h1>
+        <!-- <h2 class="header-content__subtitle">
+          Варяг
+        </h2> -->
+        <!-- /.header-content__title -->
+        <div class="header-content__text">
+          Барбершоп <span>Hair salon</span>, почувствуй себя настоящим мужчиной
+        </div>
+        <!-- /.header-content__text -->
+        <div class="btn">
+          <!-- <a href="#" class="button">
+            Хочу бороду
+          </a> /.button -->
+          <a data-fancybox data-src="#modal" href="javascript:;" class="button" href="#">Хочу бороду</a>
+        </div>
+      </div>
+      <!-- /.header-content -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <nav class="menu">
+    <div class="container container-menu">
+      <div class="close-btn"></div>
+      <!-- /.close-btn -->
+      <div class="menu__list">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <!-- /.menu-list -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- /.menu -->
+  <section class="slider-top">
+    <div class="slider">
+      <div class="slider__item" style="background-image: url(images/slide-1.jpg);">
+
+      </div>
+      <!-- /.slider__item -->
+      <div class="slider__item" style="background-image: url(images/slide-2.jpg);">
+
+      </div>
+      <!-- /.slider__item -->
+      <div class="slider__item" style="background-image: url(images/slide-3.jpg);">
+
+      </div>
+      <!-- /.slider__item -->
+    </div>
+    <!-- /.slider -->
+  </section>
+  <!-- /.slider-top -->
+  <!-- <section class="statistics">
+    <div class="container">
+      <div class="statistics-items">
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+            Двигатель
+          </div>
+          /.statistics-item__title
+          <div class="statistics-item__num">
+            2,1 <span>сек</span>
+          </div>
+          /.statistics-item__num
+          <div class="statistics-item__descr">
+            разгон до 100 км
+          </div>
+          /.statistics-item__descr
+        </div>
+        /.statistics-item
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+            Батарея
+          </div>
+          /.statistics-item__title
+          <div class="statistics-item__num">
+            1000 <span>км</span>
+          </div>
+          /.statistics-item__num
+          <div class="statistics-item__descr">
+            запас хода
+          </div>
+          /.statistics-item__descr
+        </div>
+        /.statistics-item
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+            Скорость
+          </div>
+          /.statistics-item__title
+          <div class="statistics-item__num statistics-item__num--speed">
+            400 <span>км/ч</span>
+          </div>
+          /.statistics-item__num
+          <div class="statistics-item__descr">
+            макс скорость
+          </div>
+          /.statistics-item__descr
+        </div>
+        /.statistics-item
+      </div>
+      /.statistics-items
+    </div>
+    /.container
+  </section>
+  /.statistics
+
+
+  <section class="video">
+    <div class="container">
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/tw4jkyfY4HE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    /.container
+  </section> -->
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages-inner">
+        <div class="advantages-inner__row">
+          <div class="advantages-descr">
+            <div class="advantages-box">
+              <div class="advantages__title">
+                О нас
+              </div>
+              <!-- /.advantages__title -->
+              <div class="advantages__text">
+                У НАС ЕСТЬ ВСЁ, ЧТО ТРЕБУЕТСЯ НАСТОЯЩЕМУ МУЖЧИНЕ: АТМОСФЕРА БРУТАЛЬНОСТИ И МУЖСКОГО ДУХА,
+                ПРОФЕССИОНАЛИЗМ
+                БАРБЕРОВ И
+                СОХРАНЕНИЕ ЕВРОПЕЙСКИХ ТРАДИЦИЙ БАРБЕРИНГА, А ТАКЖЕ ОТЛИЧНЫЙ КОФЕ И ХОРОШАЯ КОМПАНИЯ
+              </div>
+              <!-- /.advantages__text -->
+            </div>
+          </div>
+          <!-- /.advantages-descr -->
+          <div class="advantages__img">
+            <img src="images/barber-1.jpg" alt="">
+          </div>
+          <!-- /.advantages__img -->
+        </div>
+        <!-- /.advantages-inner__row -->
+        <div class="advantages-inner__row advantages-inner__row--mobile">
+          <div class="advantages__img">
+            <img src="images/barber-2.jpg" alt="">
+          </div>
+          <!-- /.advantages__img -->
+          <div class="advantages-descr">
+            <div class="advantages-box">
+              <div class="advantages__title">
+                Наши преимущества
+              </div>
+              <!-- /.advantages__title -->
+              <div class="advantages__text">
+                <ul>
+                  <li>Соотношение цена-качество</li>
+                  <li>Гибкая система скидок</li>
+                  <li>Современное оборудование</li>
+                  <li>Широкий ассортимент услуг</li>
+                  <!-- <li>Выездной парикмахер на дому</li> -->
+                  <li>Чашечка кофе за ожидание за наш счет</li>
+                  <li>Индивидуальный подход к каждому клиенту</li>
+                  <li>Наши специалисты проходили стажировку зарубежом</li>
+                </ul>
+              </div>
+              <!-- /.advanteges__text -->
+            </div>
+          </div>
+          <!-- /.advantages-descr -->
+        </div>
+        <!-- /.advantages-inner__row -->
+      </div>
+      <!-- /.advantages-inner -->
+      <div class="advantages-inner">
+        <div class="advantages-inner__row">
+          <div class="advantages-descr">
+            <div class="advantages-box">
+              <div class="advantages__title">
+                Barbershop Hair salon
+              </div>
+              <!-- /.advantages__title -->
+              <div class="advantages__text">
+                Это — намного больше, чем просто мужская парикмахерская. Это место, где Вам помогут найти свой
+                собственный,
+                неповторимый стиль. Стоит довериться мастерам Hair salon один раз, и, поверьте, новый образ не оставит
+                Вас
+                равнодушным.
+              </div>
+              <!-- /.advantages__text -->
+            </div>
+          </div>
+          <!-- /.advantages-descr -->
+          <div class="advantages__img">
+            <img src="images/barber-3.jpg" alt="">
+          </div>
+          <!-- /.advantages__img -->
+        </div>
+        <!-- /.advantages-inner__row -->
+        <div class="advantages-inner__row advantages-inner__row--mobile">
+          <div class="advantages__img">
+            <img src="images/barber-4.jpg" alt="">
+          </div>
+          <!-- /.advantages__img -->
+          <div class="advantages-descr">
+            <div class="advantages-box">
+              <div class="advantages__title ">
+                Скидка
+              </div>
+              <!-- /.advantages__title -->
+              <div class="advantages__text">
+                У нас стартует акция «Приведи друга — Получи скидку!».
+                Расскажите о нас своим знакомым, друзьям или родственникам. Если кто-либо из них сделает стрижку в нашем
+                барбершопе, по Вашей рекомендации, то Вы получите скидку в 10% на следующую услугу у нас. А Ваш друг
+                скидку в 10% на свою
+                услугу.
+              </div>
+              <!-- /.advanteges__text -->
+
+            </div>
+          </div>
+          <!-- /.advantages-descr -->
+        </div>
+        <!-- /.advantages-inner__row -->
+      </div>
+      <!-- /.advantages-inner -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.advantages -->
+
+  <section class="design">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="design__images">
+          <img src="images/design.jpg" alt="">
+        </div>
+        <!-- /.disign__images -->
+        <div class="design-row">
+          <div class="design-row__item">
+            <div class="design-row__item-num">Во-первых</div>
+            <!-- /.design-row__item-num -->
+            <div class="design-row__item-text">
+            Barbershop <span>Hair salon</span> — намного больше, чем просто мужская парикмахерская, это даже больше, чем мужской клуб по интересам, это
+            именно то место, где ты найдёшь себя и свой стиль.
+            </div>
+            <!-- /.design-row__item-text -->
+          </div>
+          <!-- /.design-row__item -->
+          <div class="design-row__item">
+            <div class="design-row__item-num">Во-вторых</div>
+            <!-- /.design-row__item-num -->
+            <div class="design-row__item-text">
+              Если хочешь кривую стрижку за 300 рублей – дуй в подвал у дома. Если хочешь привести в порядок не только шевелюру, но и
+              бороду – изволь в барбершоп.
+            </div>
+            <!-- /.design-row__item-text -->
+          </div>
+          <!-- /.design-row__item -->
+        </div>
+        <!-- /.design-row -->
+      </div>
+      <!-- /.container -->
+    </div>
+  </section>
+  <!-- /.design -->
+
+ <footer class="footer">
+    <div class="container">
+      <div class="footer-btn">
+        <!-- <a href="#" class="button">
+          Хочу бороду
+        </a> -->
+        <a data-fancybox data-src="#modal" href="javascript:;" class="button" href="#">Хочу бороду</a>
+        <!-- /.header-content__btn -->
+      </div>
+      <!-- /.footer-btn -->
+      <div class="footer-copy">
+        <!-- ul>li*7.a[href=#] -->
+        <ul>
+          <li>Boroda © 2020</li>
+          <li class="a" href="#">Style & Respect</li>
+          <li class="a" href="#">To do good</li>
+          <li class="a" href="#">A life</li>
+          <li class="a" href="#">Development</li>
+          <li class="a" href="#">You will do this</li>
+          <li class="a" href="#">You know</li>
+        </ul>
+      </div>
+      <!-- /.footer-copy -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer   -->
+
+  <div id="modal">
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваш телефон">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
